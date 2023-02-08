@@ -1,5 +1,5 @@
 # Greatest Common Divisor & Least Common Multiple Calculator
-nicroservices of Greatest Common Divisor & Least Common Multiple Calculator using Flask framework . 
+microservices of Greatest Common Divisor & Least Common Multiple Calculator using Flask framework . 
 ## Install
 ```
 pip install -r requirements.txt
