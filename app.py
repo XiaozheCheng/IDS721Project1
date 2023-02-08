@@ -19,7 +19,7 @@ def calculator(x, y):
 @app.route('/')
 def hello():
     print("I am a Greatest Common Divisor & Least Common Multiple")
-    return 'Hello Greatest Common Divisor & Least Common Multiple! Please use it to calculate Greatest Common Divisor & Least Common Multiple at route by typing: /gcd-and-lcm/x/y (x and y are the two number you want to calculate)'
+    return 'Hello! Please use it to calculate Greatest Common Divisor & Least Common Multiple at route by typing: /gcd-and-lcm/x/y (x and y are the two number you want to calculate)'
 
 @app.route('/gcd-and-lcm/<x>/<y>')
 def changeroute(x, y):
