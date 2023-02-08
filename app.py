@@ -8,7 +8,7 @@ def calculator(x, y):
     while m%n:
         m, n = n, m%n
     gcd = n
-    lcm = (x*y//n)}
+    lcm = (x*y//n)
     
     return [{'gcd':gcd}, {'lcm':lcm}]
 
